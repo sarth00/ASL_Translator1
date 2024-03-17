@@ -92,6 +92,7 @@
                         android:layout_marginTop="10dp"
                         android:text="Learn"
                         android:textSize="24sp"
+                        android:textColor="@color/black"
                         app:fontFamily="@font" />
 
                     <ImageView
@@ -121,6 +122,7 @@
                         android:layout_marginTop="10dp"
                         android:text="Translate"
                         android:textSize="24sp"
+                        android:textColor="@color/black"
                         app:fontFamily="@font" />
                     <ImageView
                         android:id="@+id/imageView3"
@@ -160,6 +162,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Practice"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         />
 
@@ -189,6 +192,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Information"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         />
 
@@ -197,6 +201,7 @@
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
                         app:srcCompat="@drawable/info" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
