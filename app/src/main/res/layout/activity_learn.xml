@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDD765"
+    tools:context=".Learn">
+
+  <me.biubiubiu.justifytext.library.JustifyTextView
+      android:id="@+id/textView5"
+      android:layout_width="343dp"
+      android:layout_height="242dp"
+      android:layout_marginTop="48dp"
+      android:text="ASL contains the signs for 26 letters and has fingerspelling for the 10 numbers, as shown above.
+Usually, this is the first and foremost learning exercise for beginners trying to learn ASL. Once the letters and numbers are clearly understood, fingerspelling is used to get to proper nouns, names, places, etc., and then for moving to advanced understanding.
+The ABC sign language helps anyone simultaneously sign multiple letters and words and form meaningful sentences"
+      android:textAlignment="center"
+      android:textColor="#000000"
+      android:textSize="17dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.673"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:ignore="MissingConstraints" />
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="359dp"
+      android:layout_height="253dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView5"
+      app:layout_constraintVertical_bias="0.213"
+      app:srcCompat="@drawable/img" />
+
+  <TextView
+      android:id="@+id/youtube"
+      android:layout_width="77dp"
+      android:layout_height="27dp"
+      android:background="#FFFFFF"
+      android:text="Learn More"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

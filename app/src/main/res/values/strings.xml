@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sign Detection</string>
+    <string name="information">Sign language serves as a primary mode of communication for individuals with hearing impairments, offering a rich and
+expressive means of conveying thoughts and ideas. Despite its significance, there exists a communication barrier
+between the deaf community and those unfamiliar with sign language. In an effort to bridge this gap and foster
+inclusivity, we present a Sign Language Detection System implemented using the versatile and accessible programming
+language, Python.
+This system leverages advancements in computer vision, machine learning, and deep learning to interpret and recognize
+sign language gestures. The objective is to provide a technological solution that enables real-time detection and
+translation of sign language, thereby facilitating communication between individuals who use sign language and those
+who may not be fluent in it.</string>
+</resources>
